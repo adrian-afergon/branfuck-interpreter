@@ -1,7 +1,7 @@
 {
-  "name": "typescript-boilerplate",
+  "name": "brainfuck-interpreter",
   "version": "1.0.0",
-  "description": "Basic boilerplate project with Typecript for katas",
+  "description": "Brainfuck interpreter with Typescript",
   "main": "main.ts",
   "engineStrict": true,
   "engines": {
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@babel/plugin-transform-modules-commonjs": "^7.0.0",
     "@babel/preset-typescript": "^7.0.0",
     "@types/jest": "^23.3.2",
